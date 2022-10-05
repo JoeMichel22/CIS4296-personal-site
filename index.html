@@ -9,80 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="personalSite.css">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
-    <style>
-        html,
-        body {
-            height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
-            scroll-behavior: smooth;
-        }
-
-        .faded {
-            opacity: 0.8
-        }
-
-        .landing {
-            min-height: 100%;
-            min-height: calc(100% - 56px);
-            padding-top: 56px;
-        }
-
-        .btn-outline {
-            color: black;
-            background-color: white;
-            border: 2px solid black;
-            opacity: 0.5;
-            transition: 0.3s;
-
-        }
-
-        .btn-outline:hover {
-            opacity: 1;
-        }
-
-        .lang {
-            height: 60px;
-            transition: 0.3s;
-        }
-
-        .contacticon {
-            font-size: 65px;
-        }
-
-        .contacticon a {
-            color: rgb(33, 37, 41);
-        }
-
-        .course {
-            margin: 0 10px;
-            padding: 20px;
-            background-color: #eeeeee;
-            border-radius: 5px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .course h5 {
-            margin: 0;
-        }
-
-        .next {
-            font-size: 65px;
-        }
-
-        .next a {
-            color: rgb(33, 37, 41);
-        }
-    </style>
+    <title>Joe Michel</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Joe Michel<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -97,6 +31,9 @@
                     <a class="nav-link" href="#courses">Courses</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
@@ -104,10 +41,10 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Joe Michel!</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
+            <h5 class="display-5 mx-auto faded text-center">I'm a senior Information Science & Technology student at Temple
                 University.</h5>
         </div>
         <div class="row my-4">
@@ -140,12 +77,16 @@
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
             </div>
             <div class="col">
+                <a href="#skills"><button type="button" class="btn btn-outline">Skills</button></a>
+            </div>
+            <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
             </div>
         </div>
         <div class="row mt-5 next">
             <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Projects"></i></a> </div>
+                    title="Projects"></i></a> 
+        </div>
 
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
@@ -156,75 +97,100 @@
             <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Capstone 1</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">
+                For the professional development staff members of the Resnick Academic Support Center, who need a system to manage and track student athlete alumni information, the Resnick Alumni Tracking System is a web-based system that will facilitate alumni information gathering and management based on major, sport played, graduating year, and employment & education history. Different from the current system of excel spreadsheets, our web-based system allows for a more efficient process to update and manage alumni information within a centralized system. 
+            </p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>SEPTA Mobile Upgrade</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+            <p class="text-justify">
+                As the sememster project for my UX/UI course my group took on the challenge of upgrading the SEPTA app. Our upgrade would have a more freindly graphical user interface, a better saved routes section, and a better alerts messaging section.
+            </p>
         </div>
         <div class="row w-100">
-            <h5>Query Dating Site</h5>
+            <h5>Recipe Website</h5>
         </div>
         <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+            <p class="text-justify">
+                As the final term project for my Client-Side scripting course my group was tasked with learning the scripting language Ember then using it to build a website. The website we dedcided to build was a recipe site that would hold a large amount of recipes with a list of ingrediants and steps on how to prepare each dish. Users would also be able to upload new recipes as well and save certain recipes in a favorites section.
+            </p>
         </div>
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Courses"></i></a> </div>
+                    title="Courses"></i></a> 
+        </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+            <h5 class="display-5 mx-auto faded text-center">Includes color indication on level of enjoyment for each course.</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
-                <h5>Information Systems Analysis and Design</h5>
+                <h5>Information Systems Analysis and Design <span class="position-absolute top-0 start-100 translate-middle p-2 badge rounded-pill bg-danger rounded-circle"><span class="visually-hidden"></span></span> </h5>
             </div>
             <div class="col text-center course">
-                <h5>Server-Side Web Application Development</h5>
-            </div>
-        </div>
-        <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
-                <h5>Network Architectures</h5>
-            </div>
-            <div class="col text-center course">
-                <h5>Client-Side Scripting</h5>
+                <h5>Server-Side Web Application Development <span class="position-absolute top-0 start-100 translate-middle p-2 badge rounded-pill bg-warning rounded-circle"><span class="visually-hidden"></span></span> </h5>
             </div>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
-                <h5>Component-Based Software Design</h5>
+                <h5>Network Architectures <span class="position-absolute top-0 start-100 translate-middle p-2 badge rounded-pill bg-warning rounded-circle"><span class="visually-hidden"></span></span> </h5>
             </div>
             <div class="col text-center course">
-                <h5>Database Management Systems</h5>
+                <h5>Client-Side Scripting <span class="position-absolute top-0 start-100 translate-middle p-2 badge rounded-pill bg-success rounded-circle"><span class="visually-hidden"></span></span> </h5>
             </div>
         </div>
+        <div class="row w-100 justify-content-center my-3">
+            <div class="col text-center course">
+                <h5>Component-Based Software Design <span class="position-absolute top-0 start-100 translate-middle p-2 badge rounded-pill bg-success rounded-circle"><span class="visually-hidden"></span></span> </h5>
+            </div>
+            <div class="col text-center course">
+                <h5>Database Management Systems <span class="position-absolute top-0 start-100 translate-middle p-2 badge rounded-pill bg-warning rounded-circle"><span class="visually-hidden"></span></span> </h5>
+            </div>
+        </div>
+
         <div class="row mt-5 next">
-            <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Contact"></i></a> </div>
+        <a href="#skills" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                title="Skils"></i></a> 
+        </div>
     </div>
+
+    
+
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="skills">
+
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Skills</h4>
+        </div>
+        <div class="row mx-auto mb-4">
+            <h5 class="display-5 mx-auto faded text-center">Skills that pay the bills</h5>
+        </div>
+
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Java</li>
+            <li class="list-group-item">C#</li>
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">Python</li>
+            <li class="list-group-item">ASP.net</li>
+            <li class="list-group-item">Ember</li>
+            <li class="list-group-item">D3</li>
+            <li class="list-group-item">Git</li>
+          </ul>
+
+          <div class="row mt-5 next">
+            <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="Contact"></i></a> 
+        </div>
+    </div>
+
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
